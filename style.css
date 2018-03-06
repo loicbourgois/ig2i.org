@@ -1,0 +1,63 @@
+.triforce p {
+	font-size: 1.2em;
+}
+
+.triforce .text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.triforce img {
+	width: 7em;
+	height: 7em;
+	margin: 1em 2em;
+}
+
+.triforce .top {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.triforce .base {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.triforce .base > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	margin: 2em;
+}
+
+.triforce h4 {
+	margin-top: 1em;
+}
+
+.triforce .svg {
+	fill: #cacc2c;
+}
+
+.triforce #base1 .text {
+	align-items: flex-end;
+	margin-right: 5em;
+}
+
+.triforce #base2 .text {
+	align-items: flex-start;
+	margin-left: 5em;
+}
+
+#base1 {
+	align-items: flex-end;
+}
+
+#base2 {
+	align-items: flex-start;
+}
