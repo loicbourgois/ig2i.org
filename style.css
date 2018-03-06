@@ -2,6 +2,12 @@
 	font-size: 1.2em;
 }
 
+.github {
+	width: 3em;
+	height: 3em;
+	vertical-align: middle;
+}
+
 .triforce .text {
 	display: flex;
 	flex-direction: column;
